@@ -6,11 +6,11 @@
 ### pug
 ```pug
 each color in ['black', 'brown','purple']
-  div(class="catalog-item-model__colors-" + color)
+  div(class="catalog-item-" + color)
 ```
 ### html
 ```html
-<div class="catalog-item-model__colors-black"></div>
-<div class="catalog-item-model__colors-brown"></div>
-<div class="catalog-item-model__colors-purple"></div>
+<div class="catalog-item-black"></div>
+<div class="catalog-item-brown"></div>
+<div class="catalog-item-purple"></div>
 ```
